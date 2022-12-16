@@ -3,7 +3,7 @@ import pandas as pd
 import os 
 # import profiling capability
 
-import pandas_profiling 
+import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 # ML staff
 from pycaret.classification import setup,compare_models,pull,save_model
