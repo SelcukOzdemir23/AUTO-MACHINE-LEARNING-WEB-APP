@@ -33829,3 +33829,13 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
                                  tol=0.001))],
          verbose=False)
 2022-12-16 10:43:09,014:INFO:save_model() successfully completed......................................
+2022-12-16 10:49:10,295:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-16 10:49:10,296:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-16 10:49:10,296:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-16 10:49:10,296:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-16 10:49:11,901:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
