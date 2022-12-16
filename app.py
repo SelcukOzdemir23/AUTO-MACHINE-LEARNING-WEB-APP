@@ -3,8 +3,8 @@ import pandas as pd
 import os 
 # import profiling capability
 
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
+# import pandas_profiling
+# from streamlit_pandas_profiling import st_profile_report
 # ML staff
 from pycaret.classification import setup,compare_models,pull,save_model
 
@@ -29,8 +29,8 @@ if choices =="Upload":
 
 if choices == "Profiling":
     st.title("Automatic Exploratory Data Analysis")
-    profile_report = df.profile_report()
-    st_profile_report(profile_report)
+    # profile_report = df.profile_report()
+    # st_profile_report(profile_report)
 if choices == "ML":
     st.title("Machine Learning go BRR***")
     target = st.selectbox("Select your target",df.columns)
