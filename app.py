@@ -23,6 +23,7 @@ if choices =="Upload":
     file = st.file_uploader("Upload Your Dataset Here")
     if file:
         df=pd.read_csv(file,index_col=None)
+        df = df.dropna()
         df.to_csv("sourcedata.csv",index=None)
         st.dataframe(df)
         pass
