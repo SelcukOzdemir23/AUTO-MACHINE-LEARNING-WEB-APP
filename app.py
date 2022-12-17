@@ -10,7 +10,7 @@ from pycaret.regression import setup,compare_models,pull,save_model
 st.balloons()
 with st.sidebar:
     st.image("https://media.istockphoto.com/id/1371766825/photo/big-data-network-abstract-concept.jpg?b=1&s=170667a&w=0&k=20&c=0C8TyRQTYkX-q_jm0pzc-MjZ7of_CcCisqPF4VMX_ug=")
-    st.title("AutoStreamML")
+    st.title("AutoStreamML- For Regression Problems")
     choices = st.radio("Navigation",["Upload","Profiling","ML","Download"])
     st.info("This appliacation allows you to build an automated ML pipline using Streamlit Pandas Profiling")
     st.warning("Please enter the data with no nan value")
