@@ -6,7 +6,7 @@ import os
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 # ML staff
-from pycaret.classification import setup,compare_models,pull,save_model
+from pycaret.regression import setup,compare_models,pull,save_model
 st.balloons()
 with st.sidebar:
     st.image("https://media.istockphoto.com/id/1371766825/photo/big-data-network-abstract-concept.jpg?b=1&s=170667a&w=0&k=20&c=0C8TyRQTYkX-q_jm0pzc-MjZ7of_CcCisqPF4VMX_ug=")
